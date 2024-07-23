@@ -23,6 +23,42 @@
         </button>
       </div>
     </div>
+    <div
+      class="flex flex-col items-center text-center min-h-screen min-w-screen gap-4 p-4"
+    >
+      <h1 class="text-[72px] font-bold">Couldn't you see?</h1>
+      <h2 class="text-lg">The modern apps are just ruining your life</h2>
+      <div class="flex justify-center w-full h-full">
+        <video
+          autoplay
+          muted
+          loop
+          class="w-full h-full object-cover lg:max-w-[60%]"
+        >
+          <source src="/scrolling.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <div class="min-h-screen min-w-screen text-center">
+      <div class="flex flex-col gap-[24px]">
+        <h2 class="text-[92px]">
+          because they only care their
+          <i class="dollarbg font-bold block">money.</i>
+        </h2>
+        <h1 class="text-[108px]">
+          not
+          <div class="inline-block fixed overflow-hidden">
+            <div class="inline-flex flex-col text-center justify-center">
+              <span v-for="current in whattheydontcare" class="font-bold">{{
+                current
+              }}</span>
+            </div>
+          </div>
+        </h1>
+      </div>
+    </div>
   </div>
 </template>
 <script setup>
