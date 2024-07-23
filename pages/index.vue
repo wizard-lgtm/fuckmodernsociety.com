@@ -35,7 +35,10 @@
           loop
           class="w-full h-full object-cover lg:max-w-[60%]"
         >
-          <source src="/scrolling.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dyhcjtotx/video/upload/v1721715551/scrolling_o2bjqb.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -86,7 +89,7 @@ const whattheydontcare = ref([
 </script>
 <style scoped>
 .dollarbg {
-  background-image: url("/dollar.jpg");
+  background-image: url("https://res.cloudinary.com/dyhcjtotx/image/upload/v1721715653/dollar_npugct.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-clip: content-box;

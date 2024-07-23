@@ -11,14 +11,20 @@
           loop
           class="w-full h-full object-cover md:h-[400px]"
         >
-          <source src="/seengirl.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dyhcjtotx/video/upload/v1721715547/seengirl_ocyzmm.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
       </div>
 
       <div class="flex-1 w-1/2 flex md:flex-col gap-[100px]">
         <video autoplay muted loop class="w-full h-full object-cover h-[400px]">
-          <source src="/seenboy.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dyhcjtotx/video/upload/v1721715548/seenboy_brwnaj.mp4"
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
         <h2 class="text-[48px] lg:text-[72px] flex-1 leading-none">
