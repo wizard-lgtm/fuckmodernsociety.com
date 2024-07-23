@@ -61,52 +61,11 @@
         </h1>
       </div>
     </div>
-    <div class="min-h-screen min-w-screen flex flex-col text-center">
-      <div class="flex flex-col md:flex-row gap-4">
-        <div class="flex flex-col gap-[100px] w-1/2">
-          <h2 class="text-[48px] lg:text-[72px] flex-1 leading-none">
-            The world has never been more connected
-          </h2>
-          <video
-            autoplay
-            muted
-            loop
-            class="w-full h-full object-cover md:h-[400px]"
-          >
-            <source src="/seengirl.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-
-        <div class="flex-1 w-1/2 flex md:flex-col gap-[100px]">
-          <video
-            autoplay
-            muted
-            loop
-            class="w-full h-full object-cover h-[400px]"
-          >
-            <source src="/seenboy.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <h2 class="text-[48px] lg:text-[72px] flex-1 leading-none">
-            yet the people never have been more lonely.
-          </h2>
-        </div>
-      </div>
-    </div>
-    <div class="min-h-screen min-w-screen flex flex-col text-center">
-      <h2 class="text-4xl">
-        Isn't it enough for fake relationships, fake emotions, fake lifes, fake
-        stuffs
-      </h2>
-      <button>
-        stop this thing, and start to live
-        <div>now.</div>
-      </button>
-    </div>
+    <Quote />
+    <Enogh />
     <div class="footer text-center">
-      <p>made by pure love.</p>
-      <a href="">source code.</a>
+      <p>made by ziggywizard by pure love.</p>
+      <a href="underline" class="underline">source code</a>
     </div>
   </div>
 </template>
